@@ -4,8 +4,769 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>it,s me kimmy</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="icon" href="K-Logo.png">
+    <title>Kimireyo</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 <body>
-    <p>hii sat </p>
+    <style>
+        body {
+            padding: auto;
+            margin: auto;
+            font-family: 'Poppins';
+            color: #000000;
+            background-color: white;
+            width: 100%;
+        }git
+    </style>
+    <header>
+        <nav>
+            <img src="K-Logo.png" alt=""><a href=#home></a>
+            <ul class="nav-menu">
+                    <li><a href=#service>Service</a></li>
+                    <li><a href=#about>About</a></li>
+                    <li><a href=#portfolio>Portofolio</a></li>
+                    <li><a href=#project>Project</a></li>
+                    <li><a href=#contact>Contact</a></li>       
+            </ul>
+        </nav>
+        <style>
+            nav ul {
+                display: flex;
+                column-gap: 48p`x;
+                list-style: none;
+                justify-content: center;
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 15px;
+                margin-top: 18px;
+            }
+            nav {
+                display: flex;
+                justify-content: space-between;
+                background-color: white;
+                position: fixed;
+                border-bottom: 1.5px solid;
+                width: 100%;
+                z-index: 50;
+            }
+            nav .nav-menu {
+                display: flex;
+                justify-content: space-between;
+                margin-right: 5%;
+                margin-left: 5%;
+            }
+            a{
+                color: #000000;
+                text-decoration: none;
+            }
+            nav img {
+                height: 35px;
+                width: 40px;
+                margin-top: 14px;
+                margin-bottom: 14px;
+                margin-left: 5%;
+            }
+        </style>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-container">
+            <div class="home-image">
+                <img src="HiCharacter.png" alt="">
+            </div>
+            <div class="home-desc">
+                <h1>Hai</h1>
+                <span>Perkenalkan Nama Saya</span><br>
+                <span>Kimberly Irenee Yolanda</span><br>
+                <span>/ biasa dipanggil Kimmy</span><br>
+                <div class="home-button">
+                    <h5>Yuk Kenalan !</h5>
+                </div>
+            </div>
+        </div>
+        <style>
+            .home {
+                display: flex;
+                justify-content: center;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+            .home-container {
+                display: flex;
+                justify-content: space-between;
+            }
+            .home-desc {
+                margin-top: 175px;
+                display: block;
+            }
+            .home-desc h1 {
+                font-size: 96px;
+                font-weight: 600;
+                top: 274px;
+                margin-bottom: 0;
+            }
+            .home-desc span {
+                font-size: 40px;
+                font-weight: 400;
+            }
+            .home-button h5 {
+                background-color: white;
+                width: 90%;
+                height: 45px;
+                color: black;
+                outline-style: solid;
+                font-size: 30px;
+                font-weight: 400;
+                text-align: center;
+                border-radius: 50px;
+                padding: 13px 44px;
+                justify-content: center;
+            }
+            .home-container img {
+                height: 650px;
+                width: 650px;
+                margin-top: 120px;
+                bottom: 94px;
+            }
+        </style>
+    </section>
+
+    <section class="service" id="service">
+        <div class="service-container">
+            <h2>SERVICE</h2>
+            <h6>Layanan Yang Saya Berikan</h6>
+            <div class="services">
+                <div class="services-items">
+                    <div class="row">
+                        <h5>Character</h5>
+                        <h5>IG Feed</h5>
+                    </div>
+                    <div class="row">
+                        <h5>2D Design</h5>
+                        <h5>WebDesign</h5>
+                    </div>
+                    <div class="row">
+                        <h5>3D Design</h5>
+                        <h5>Catalogue</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .service {
+                display: flex;
+                justify-content: center;
+            }
+            .service-container {
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+            .services-items {
+                display: block;
+                justify-content: center;
+            }
+            .service {  
+                text-align: center;
+                padding-top: 80px;
+            }
+            .service h2{
+                display: block;
+                font-size: 60px;
+                font-weight: 600;
+            }
+            .service h6{
+                display: block;
+                font-size: 20px;
+                font-weight: 600;
+                margin-top: -75px;
+            }
+            .services h5 {
+                text-align: center;
+                border: 3px solid #000000;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-size: 28px;
+                border-radius: 20px;
+                padding: 50px 100px;
+                width: 200px;
+                margin-left: 28px;
+                margin-right: 28px;
+            }
+            .services {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            .service .row {
+                display: flex;
+                margin-top: -20px;
+            }
+        </style>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-top">
+                <img src="AboutCharacter.png" alt="">
+                <h4>I'm Kimmy</h4>
+                <span>Sudah 6 tahun saya menjadi seorang graphic designer saya memulai</span><br>
+                <span>pekerjaan ini dimulai saat saya sedang SMK dan saya tertarik dikarenakana</span><br>
+                <span>saya masuk jurusan multimedia darisitu saya menjadi seorang graphic designer</span><br><br>
+                <span>Saya juga bekerja sebagai Social Media Specialist, Content Creator, dan</span><br>
+                <span>Konsultan marketplace ( Shopee, Tokopedia, Tiktok )</span><br>
+            </div>
+        </div>
+
+        <style>
+            .about {
+                display: block;
+                text-align: center;
+                justify-content: center;
+            }
+            .about-top img {
+                height: 420px;
+                width: 420px;
+                margin-top: 100px;
+            }
+            .about-container {
+                height: 976px;
+            }
+            .about-top h4 {
+                font-size: 30px;
+                font-weight: 700;
+            }
+            .about-top span {
+                font-size: 24px;
+                font-family: 400;
+            }
+        </style>
+    </section>
+
+    <section class="about-bottom" id="">
+        <div class="about-bottom-all">
+            <div class="about-bottom-left">
+                <div class="story-board">
+                    <div class="story-board-experience">
+                        <div class="experience-title">
+                            <h4>STORY BOARD</h4>
+                            <h6>Pengalaman</h6>
+                        </div>
+                        <div class="experience-desc">
+                            <div class="experience">
+                                <h5>2018 Okt<br> - Nov</h5>
+                                <img src="divider.png" alt="">
+                                <div class="keterangan">
+                                    <span>
+                                        <p class="grey">Film Pendek - Juara Favorit</p>
+                                        <p class="black">Masa Depan Cemerlang Tanpa HIV</p>
+                                    </span>
+                                </div>
+                            </div>
+    
+                            <div class="experience">
+                                <h5>2019Mar <br> - Apr</h5>
+                                <img src="divider.png" alt="">
+                                <div class="keterangan">
+                                    <span>
+                                        <p class="grey">Prestasi AKSI 2019</p>
+                                        <p class="black">Apresiasi Kebangsaan Indonesia</p>
+                                    </span>
+                                </div>
+                            </div>
+    
+                            <div class="experience">
+                                <h5>2019 Agt - <br>Sep</h5>
+                                <img src="divider.png" alt="">
+                                <div class="keterangan">
+                                    <span>
+                                        <p class="grey">Anggota OSIS</p>
+                                        <p class="black">Sekretaris</p>
+                                    </span>
+                                </div>
+                                </div>
+                            </div>
+    
+                            <div class="experience">
+                                <h5>2019 Okt - <br>Nov</h5>
+                                <img src="divider.png" alt="">
+                                <div class="keterangan">
+                                    <span>
+                                        <p class="grey">Film Pendek - Juara III</p>
+                                        <p class="black">Cerdas Berkarya di Era Digital</p>
+                                    </span>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="story-board-work">
+                    <div class="work-title">
+                        <h4>Work</h4>
+                        <h6>Pekerjaan</h6>
+                    </div>
+                    <div class="work-desc">
+                        <div class="work">
+                            <h5>2019 Juli - <br>Present</h5>
+                            <img src="divider.png" alt="">
+                            <div class="keterangan2">
+                                <span>
+                                    <p class="grey">Sempurna Material</p>
+                                    <p class="black">Content Creator &</p>
+                                    <p class="black">Digital Marketing.</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-bottom-right">
+                <div class="eduskills-all">
+                    <div class="eduskills-title">
+                        <h4>EDUCATION</h4>
+                        <h6>Pendidikan</h6>
+                    </div>
+                    <div class="eduskills-desc">
+                        <div class="education">
+                            <img src="divider.png" alt="">
+                            <div class="keterangan4">
+                                <span>
+                                    <p class="grey2">SMK Santa Maria Pontianak</p>
+                                    <p class="black2">Multimedia</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="education">
+                            <img src="divider.png" alt="">
+                            <div class="keterangan4">
+                                <span>
+                                    <p class="grey2">Universitas Widya Dharma</p>
+                                    <p class="black2">Bisnis Digital</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="eduskills-title">
+                        <h4>SKILLS</h4>
+                        <h6>Kemampuan</h6>
+                    </div>
+                    <div class="eduskills-desc">
+                        <div class="skills">
+                            <img src="divider.png" alt="">
+                            <div class="keterangan4">
+                                <span>
+                                    <div class="image-keterangan5">
+                                        <img src="AdobePhotoshop.png">
+                                    </div>
+                                    <p class="black3">Adobe Photoshop</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <img src="divider.png" alt="">
+                            <div class="keterangan5">
+                                <span>
+                                    <div class="image-keterangan5">
+                                        <img src="AdobeIllustrator.png">
+                                    </div>
+                                    <p class="black3">Adobe Illustrator</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <img src="divider.png" alt="">
+                            <div class="keterangan5">
+                                <span>
+                                    <div class="image-keterangan5">
+                                        <img src="AdobeAnimate.png">
+                                    </div>
+                                    <p class="black3">Adobe Animate</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <img src="divider.png" alt="">
+                            <div class="keterangan5">
+                                <span>
+                                    <div class="image-keterangan5">
+                                        <img src="AdobePremiere.png">
+                                    </div>
+                                    <p class="black3">Adobe Premiere Pro</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <img src="divider.png" alt="">
+                            <div class="keterangan5">
+                                <span>
+                                    <div class="image-keterangan5">
+                                        <img src="Blender.png">
+                                    </div>
+                                    <p class="black3">Blender</p>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .about-bottom-all {
+                display: flex;
+                justify-content: space-around;
+                margin: 50px 100px;
+            }
+            .about-bottom-left {
+                display: block;
+                justify-content: center;
+            }
+            .work1 {
+                display: inline;
+                justify-content: space-between;
+            }
+            .about-bottom h4 {
+                font-size: 28px;
+                letter-spacing: 6%;
+                font-weight: 600;
+            }
+            .about-bottom h6 {
+                font-size: 18px;
+                letter-spacing: 6%;
+                font-weight: 600;
+                color: rgba(108, 108, 108, 1);
+                margin-top: -40px;
+                padding-bottom: 18px;
+            }
+            .about-bottom h5 {
+                font-size: 16px;
+                letter-spacing: 6%;
+                font-weight: 600;
+                margin-top: -20px;
+                padding-bottom: 20px;
+                width: 90px;
+            }
+            .about-bottom br {
+                margin-top: -20px;
+            }
+            .about-bottom .grey{
+                color: rgba(108, 108, 108, 1);
+                margin-top: -20px;
+                margin-left: 20px;
+            }
+            .about-bottom .black{
+                color: black;
+                margin-left: 20px;
+            }
+            span p {
+                margin-top: -16px;
+            }
+            .keterangan {
+                position: absolute;
+                margin-left: 120px;
+            }
+            .keterangan2 {
+                position: absolute;
+                margin-left: 120px;
+                margin-top: -75px;
+            }
+            .story-board .story-board-work {
+                display: inline-block;
+                justify-content: space-between;
+            }
+            .experience img{
+                position: absolute;
+                height: 70px;
+                width: 25px;
+                margin-top: -25px;
+                margin-left: 100px;
+            }
+            .work img{
+                position: absolute;
+                height: 70px;
+                width: 25px;
+                margin-top: -100px;
+                margin-left: 100px;
+            }
+            .experience {
+                display: flex;
+                justify-content: space-between;
+                margin-top: -20px;
+            }
+            .keterangan4 {                
+                display: block;
+                margin-top: -25px;
+                margin-left: 15px;
+            }
+
+            .education img {
+                position: absolute;
+                height: 70px;
+                width: 25px;
+                margin-top: 0px;
+                margin-left: -5px;
+            }
+            .about-bottom-right {
+                display: block;
+                margin-left: 350px;
+            }
+            .eduskills-desc span {
+                margin-top: 20px;
+            }
+            .eduskills-desc{
+                display: block;
+                margin-bottom: 20px;
+            }
+            .about-bottom .grey2{
+                color: rgba(108, 108, 108, 1);
+                margin-top: -48px;
+                margin-left: 20px;
+            }
+            .about-bottom .black2{
+                color: black;
+                margin-left: 20px;
+                padding-bottom: 45px;
+            }
+            .keterangan5 {                
+                display: inline;
+                margin-top: -25px;
+                margin-left: 15px;
+            }
+            .skills span img {
+                height: 35px;
+                width: 35px;
+                margin-left: 30px;
+                margin-top: -15px;
+            }
+            .skills img {
+                position: absolute;
+                height: 70px;
+                width: 25px;
+                margin-top: -25px;
+                margin-left: -5px;
+                margin-bottom: -30px;
+            }
+            .about-bottom .black3{
+                color: black;
+                margin-left: 80px;
+                margin-top: -20px;
+            }
+        </style>
+    </section>
+
+    <section class="portfolio" id="project">
+        <div class="portfolio-container">
+            <h3 >MY PROJECT</h3>
+            <div class="image-container">
+                <div class="character">
+                    <h7>CHARACTER</h7>
+                    <div class="character-image">
+                        <img src="Character1.png" alt="">
+                        <img src="Character2.png" alt="">
+                        <img src="Character3.png" alt="">
+                    </div>
+                </div>
+    
+                <div class="twod">
+                    <h7>2D DESIGN</h7>
+                    <div class="duad-image">
+                        <img src="Pantai.jpg" alt=""">
+                        <img src="Sunset.jpg" alt="">
+                    </div>
+                </div>
+    
+                <div class="threed">
+                    <h7>3D DESIGN</h7>
+                    <div class="tigad-image">
+                        <img src="3DDEsign.JPG" alt="">
+                    </div>
+                </div>
+    
+                <div class="feeds">
+                    <h7>IG FEEDS</h7>
+                    <div class="feeds-image">
+                        <img src="Feed1.jpg" alt="">
+                        <img src="Feed2.jpg" alt="">
+                        <img src="Feed3.jpg" alt="">
+                        <img src="Feed4.jpg" alt="">
+                    </div>
+                </div>
+    
+                <div class="web">
+                    <h7>WEB DESIGN</h7>
+                    <div class="web-image1">
+                        <img src="Web1.png" alt="" >
+                        <img src="Web2.png" alt="" >
+                        <img src="Web3.png" alt="">
+                    </div>
+                    <div class="web-image2">
+                        <img src="Web4.png" alt="" >
+                        <img src="Web5.png" alt="" >
+                        <img src="Web6.jpg" alt="">
+                    </div>
+                </div>
+                
+                <div class="catalogue">
+                    <h7>CATALOGUE</h7>
+                    <div class="catalogue-image">
+                        <img src="Catalogue1.jpg" alt="" >
+                        <img src="Catalogue2.jpg" alt="" >
+                        <img src="Catalogue3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .portfolio-container {
+                display: block;
+                text-align: center;
+                justify-content: center;
+            }
+            .portfolio-container .character h7 {
+                font-size: 18px;
+                font-weight: 400;
+                font-family: 'Inter';
+            }
+            .portfolio-container h3 {
+                font-size: 45px;
+                font-weight: 600;
+                padding-top: 100px;
+            }
+            .character-image img {
+                display: inline;
+                justify-content: space-around;
+                align-items: center;
+                width: 406px;
+                height: 406px;
+                margin-bottom: 60px;
+                margin-top: 40px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            }
+            .duad-image img {
+                display: inline;
+                justify-content: space-around;
+                align-items: center;
+                width: 566px;
+                height: 566px;
+                margin-bottom: 60px;
+                margin-top: 40px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            }
+            .tigad-image img{
+                display: inline;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 1132px;
+                max-height: 682px;
+                width: 80%;
+                height: 20%;
+                margin-bottom: 60px;
+                margin-top: 40px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            }
+            .feeds-image img{
+                display: inline;
+                justify-content: space-around;
+                align-items: center;
+                height: 337px;
+                margin-bottom: 60px;
+                margin-top: 40px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            }
+            .web-image1 img, .web-image2 img {
+                display: inline;
+                justify-content: space-between;
+                align-items: center;
+                height: 220px;
+                margin-bottom: 60px;
+                margin-top: 40px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            }
+
+            .catalogue-image img{
+                display: inline;
+                justify-content: space-around;
+                align-items: center;
+                height: 620px;
+                margin-bottom: 60px;
+                margin-top: 40px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            }
+        </style>
+    </section>
+
+    <section class="contact" id="contact">
+        <h4>CONTACT</h4>
+        <img src="HeadCharacter.png" alt="" class="contact-head">
+        <br>
+        <div class="contact-details">
+            <div class="instagram">
+                <img src="Instagram.png" alt=""> 
+                <div class="text">@kimmy-kyle</div>
+            </div>
+            <div class="whatsapp">
+                <img src="WA.png" alt=""> 
+                <div class="text">0877 - 8184 - 8131</div>
+            </div>
+            <div class="email">
+                <img src="Email.png" alt=""> 
+                <div class="text">Kimireyo7@gmail.com</div>
+            </div>
+        </div>
+        <style>
+            .contact {
+                display: block;
+                justify-content: center;
+                text-align: center;
+                height: 850px;
+            }
+            .contact-details {
+                display: inline;
+            }
+            .contact-details img {
+                height: 46px;
+                width: 46px;
+            }
+            .contact-head{
+                width: 460px;
+                height: 460px;
+            }
+            .contact h4 {
+                font-size: 28px;
+                font-weight: 600;
+            }
+            .instagram {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                line-height: 46px;
+            }
+            .instagram .text {
+                margin-left: 20px;
+            }
+            .whatsapp {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                line-height: 46px;              
+                margin-top: 32px;
+            }
+            .whatsapp .text {
+                margin-left: 20px;
+            }
+            .email {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                line-height: 46px;
+                margin-top: 32px;
+            }
+            .email .text {
+                margin-left: 20px;
+            }
+        </style>
+    </section>
 </body>
+</html>
